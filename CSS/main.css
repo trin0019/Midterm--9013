@@ -61,11 +61,11 @@ pre, code, kbd{
 ***************************/ 
 
 h1 {
-    font-size: 2.618rem;
+    font-size: 4.236rem;
 }
 
 h2 {
-    font-size: 1.68rem;
+    font-size: 2.618rem;
 }
 
 li,
@@ -167,7 +167,7 @@ footer li{
 @media screen and (min-width:600px){
  
     h1{
-        font-size: 2.618rem;
+        font-size: 4.236rem;
     }
     
     h2{
@@ -204,6 +204,16 @@ footer li{
         float: left;
         padding: 0;  
     }
+    
+    nav a,
+    nav a:link,
+    nav a:visited{
+    display: block;
+    font: bold 1.0rem 'Droid Sans', 'more font stack stuff', sans-serif;
+    text-align: center;
+    color: #ECD0B8;
+    text-decoration: none;
+}
     
     figure img{
         width: 50%;
@@ -250,13 +260,13 @@ footer li{
     }
     
     h2 {
-        font-size: 2.68rem;
+        font-size: 2.618rem;
     }
     
     li,
     p,
     a {
-        font-size: 1.618rem;
+        font-size: 1.0rem;
     }
     
     a,
@@ -282,7 +292,7 @@ footer li{
     
     header h1{
        position: absolute;
-       top: 20px;
+       top: 3px;
     }
     
     nav{
@@ -317,6 +327,10 @@ footer li{
         float: left;
     }
     
+     .footer a{
+        font-size: 1rem;
+    }
+    
     /*
     header - 100%
     nav - 90%
@@ -331,7 +345,7 @@ footer li{
 
 @media screen and (min-width: 1200px){
     h1 {
-        font-size: 4.236rem;
+        font-size: 6.854rem;
     }
     
     h2 {
@@ -340,7 +354,7 @@ footer li{
     
     li,
     p,
-    a {
+    a{
         font-size: 1.618rem;
     }
     
@@ -366,6 +380,12 @@ footer li{
         display: inline-block;
     }
     
+    nav a,
+    nav a:link,
+    nav a:visited{
+        font-size: 1.618rem;
+    }
+    
     main{
         width: 70%;
         float: right;
@@ -377,6 +397,10 @@ footer li{
     
     .col img{
         width: 55%;   
+    }
+    
+    .footer a{
+        font-size: 1rem;
     }
 
 
